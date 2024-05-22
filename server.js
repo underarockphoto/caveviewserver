@@ -35,7 +35,7 @@ app.post('/svg_response', async (req, res) => {
       
 });
 app.get('/healthcheck',(req,res)=>{
-    res.send(JSON.stringify("Cave view server!"))
+    res.send("Cave view server.")
 })
 
 app.listen('9000',()=>console.log("Running"));
